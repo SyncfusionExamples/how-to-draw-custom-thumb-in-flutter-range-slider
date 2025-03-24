@@ -1,0 +1,10 @@
+^C:\USERS\NAVEENKESAVARAJ\ONEDRIVE - SYNCFUSION\DESKTOP\DATAGRID\DATAGRID_SIMPLE_SAMPLE\BUILD\WINDOWS\X64\CMAKEFILES\3951000E30CD03FF2C40CE839D4F38D1\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

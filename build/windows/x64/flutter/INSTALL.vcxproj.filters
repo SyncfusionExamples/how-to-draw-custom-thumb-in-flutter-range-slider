@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\NaveenKesavaraj\OneDrive - Syncfusion\Desktop\DataGrid\datagrid_simple_sample\build\windows\x64\CMakeFiles\2abf9e0aea934cf5de2f612e5e198458\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5DAB6484-1681-3218-A31E-8E9020795049}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\NAVEENKESAVARAJ\ONEDRIVE - SYNCFUSION\DESKTOP\DATAGRID\DATAGRID_SIMPLE_SAMPLE\BUILD\WINDOWS\X64\CMAKEFILES\3951000E30CD03FF2C40CE839D4F38D1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/NaveenKesavaraj/OneDrive - Syncfusion/Desktop/DataGrid/datagrid_simple_sample/windows" "-BC:/Users/NaveenKesavaraj/OneDrive - Syncfusion/Desktop/DataGrid/datagrid_simple_sample/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/NaveenKesavaraj/OneDrive - Syncfusion/Desktop/DataGrid/datagrid_simple_sample/build/windows/x64/datagrid_simple_sample.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
